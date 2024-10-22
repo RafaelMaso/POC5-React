@@ -2,7 +2,7 @@
 
 Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do framework React utilizando Next.js.
 
-<h2 id="tecnologias">Tecnologias</h2>
+<h2 id="tecnologias">💻 Tecnologias</h2>
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react&theme=light)](https://skillicons.dev)
 
