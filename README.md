@@ -4,7 +4,7 @@ Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do 
 
 <h2 id="tecnologias">💻 Tecnologias</h2>
 
-[![My Skills](https://skillicons.dev/icons?i=js,react&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,react,nextjs&theme=light)](https://skillicons.dev)
 
 <h2 id="colabs">🤝 Colaboradores</h2>
 
