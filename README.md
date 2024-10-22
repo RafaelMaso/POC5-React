@@ -14,5 +14,5 @@ Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do 
 
 <h2 id="contribue">📫 Contribue</h2>
 
-1. **Clone o projeto**: `git clone https://github.com/RafaelMaso/POC2-Arrays.git`
+1. **Clone o projeto**: `git clone https://github.com/RafaelMaso/POC5-React.git`
 2. **Crie uma branch**: `git checkout -b feature/NAME`
