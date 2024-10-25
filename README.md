@@ -50,10 +50,6 @@ https://nextjs.org/docs/app/building-your-application/configuring/environment - 
 
 https://nextjs.org/docs/app/building-your-application/configuring/eslint - **Arquivo de configuração do ESLint**
 
-```
-Disponibilizamos os links caso você tenha interesse em ver mais afundo sobre algum arquivo!
-````
-
 **.gitignore**	- Arquivos e pastas a serem ignorados pelo Git
 
 **next-env.d.ts**	- Arquivo de declarações do TypeScript para Next.js
@@ -61,6 +57,10 @@ Disponibilizamos os links caso você tenha interesse em ver mais afundo sobre al
 **tsconfig.json**	- Arquivo de configuração do TypeScript
 
 **jsconfig.json**	- Arquivo de configuração do JavaScript
+
+```
+Disponibilizamos os links caso você tenha interesse em ver mais afundo sobre algum arquivo!
+````
 
 
 
