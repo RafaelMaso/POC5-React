@@ -6,7 +6,14 @@ Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do 
 
 [![My Skills](https://skillicons.dev/icons?i=js,react,nextjs&theme=light)](https://skillicons.dev)
 
-<h2 id="tecnologias">🚀 Estrutura de Projeto Next.js v15.0.0</h2>
+<h2 id="tecnologias">🚀 Estrutura de Projeto Next.js v15.0.1</h2>
+
+<h3 id="tecnologias">Pastas de nível superior</h3>
+
+As pastas de nível superior são utilizadas para organizar o código e os ativos estáticos da aplicação.
+
+![image](https://github.com/user-attachments/assets/06ca6c92-05f9-4f27-b495-5d965475f1f7)
+
 
 https://nextjs.org/docs/getting-started/project-structure
 
