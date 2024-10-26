@@ -6,66 +6,56 @@ Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do 
 
 [![My Skills](https://skillicons.dev/icons?i=js,react,nextjs&theme=light)](https://skillicons.dev)
 
-> [!IMPORTANT]<h2 id="tecnologias">🚀 Estrutura de Projeto Next.js v15.0.1</h2>
+<h2 id="tecnologias">🚀 Estrutura de Projeto Next.js v15.0.1</h2>
 
-<h3 id="tecnologias">Pastas de nível superior</h3>
+<h3 id="tecnologias">Pastas de Nível Superior</h3>
 
-As pastas de nível superior são utilizadas para organizar o código e os ativos estáticos da aplicação.
+Pastas de nível superior são usadas para organizar o código da sua aplicação e seus recursos estáticos.
 
-![image](https://github.com/user-attachments/assets/06ca6c92-05f9-4f27-b495-5d965475f1f7)
+| Pasta        | Finalidade                                     |
+|--------------|------------------------------------------------|
+| `app`        | Roteador de Aplicação                          |
+| `pages`      | Roteador de Páginas                            |
+| `public`     | Recursos estáticos a serem servidos            |
+| `src`        | Pasta opcional de código-fonte da aplicação    |
 
-<UL>
-<LI>app:   Roteador de Aplicação</LI>
+<h3 id="tecnologias">Arquivos de Nível Superior</h3>
 
-<LI>pages:   Roteador de Páginas</LI>
+Arquivos de nível superior são usados para configurar a aplicação, gerenciar dependências, rodar middlewares, integrar ferramentas de monitoramento e definir variáveis de ambiente.
 
-<LI>public:   Arquivos estáticos a serem servidos</LI>
+| Arquivo                | Finalidade                                                 |
+|------------------------|------------------------------------------------------------|
+| `next.config.js`       | Arquivo de configuração do Next.js                         |
+| `package.json`         | Dependências do projeto e scripts                          |
+| `instrumentation.ts`   | Arquivo de Instrumentação e OpenTelemetry                  |
+| `middleware.ts`        | Middleware de requisição do Next.js                        |
+| `.env`                 | Variáveis de ambiente                                      |
+| `.env.local`           | Variáveis de ambiente local                                |
+| `.env.production`      | Variáveis de ambiente de produção                          |
+| `.env.development`     | Variáveis de ambiente de desenvolvimento                   |
+| `.eslintrc.json`       | Arquivo de configuração do ESLint                          |
+| `.gitignore`           | Arquivos e pastas do Git a serem ignorados                 |
+| `next-env.d.ts`        | Arquivo de declaração TypeScript para o Next.js            |
+| `tsconfig.json`        | Arquivo de configuração do TypeScript                      |
+| `jsconfig.json`        | Arquivo de configuração do JavaScript                      |
 
-<LI>src:   Pasta opcional para os arquivos de origem da aplicação</LI>
-</UL>
+Essa estrutura proporciona uma organização clara tanto para desenvolvimento quanto para produção, ajudando a otimizar a gestão e implantação de aplicações Next.js.
 
+<h3 id="tecnologias">Convenções de Roteamento no app</h3>
 
----
-> [!IMPORTANT]<h2 id="tecnologias">🚀Arquivos de nível superior</h2>
+As convenções de arquivos a seguir são usadas para definir rotas e gerenciar metadados no roteador de aplicativo.
 
-Arquivos de nível superior são usados para configurar sua aplicação, gerenciar dependências, executar middleware, integrar ferramentas de monitoramento e definir variáveis de ambiente.
-
-**Next.js**
-
-https://nextjs.org/docs/app/api-reference/next-config-js	- **Arquivo de configuração do Next.js**
-
-https://nextjs.org/docs/getting-started/installation#manual	 - **Dependências do projeto e scripts**
-
-https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation	 -  **Arquivo de Instrumentação e OpenTelemetry**
-
-https://nextjs.org/docs/app/building-your-application/routing/middleware - **Middleware de requisição do Next.js**
-
-https://nextjs.org/docs/app/building-your-application/configuring/environment - **Variáveis de ambiente**
-
-https://nextjs.org/docs/app/building-your-application/configuring/environmen - **Variáveis de ambiente locais**
-
-https://nextjs.org/docs/app/building-your-application/configuring/environment - **Variáveis de ambiente para produção**
-
-https://nextjs.org/docs/app/building-your-application/configuring/environment - **Variáveis de ambiente para desenvolvimento**
-
-https://nextjs.org/docs/app/building-your-application/configuring/eslint - **Arquivo de configuração do ESLint**
-
-**.gitignore**	- Arquivos e pastas a serem ignorados pelo Git
-
-**next-env.d.ts**	- Arquivo de declarações do TypeScript para Next.js
-
-**tsconfig.json**	- Arquivo de configuração do TypeScript
-
-**jsconfig.json**	- Arquivo de configuração do JavaScript
-
-```
-Disponibilizamos os links caso você tenha interesse em ver mais afundo sobre algum arquivo!
-````
-
-
-
-
-https://nextjs.org/docs/getting-started/project-structure
+| Arquivo           | Extensões                  | Finalidade                    |
+|-------------------|----------------------------|--------------------------------|
+| `layout`          | `.js` `.jsx` `.tsx`        | Layout                         |
+| `page`            | `.js` `.jsx` `.tsx`        | Página                         |
+| `loading`         | `.js` `.jsx` `.tsx`        | Interface de Carregamento      |
+| `not-found`       | `.js` `.jsx` `.tsx`        | Interface de Página Não Encontrada |
+| `error`           | `.js` `.jsx` `.tsx`        | Interface de Erro              |
+| `global-error`    | `.js` `.jsx` `.tsx`        | Interface de Erro Global       |
+| `route`           | `.js` `.ts`                | Endpoint de API                |
+| `template`        | `.js` `.jsx` `.tsx`        | Layout re-renderizado          |
+| `default`         | `.js` `.jsx` `.tsx`        | Página de fallback para rota paralela |
 
 <h2 id="colabs">🤝 Colaboradores</h2>
 
