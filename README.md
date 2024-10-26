@@ -2,7 +2,15 @@
 
 ![image-poc5](https://github.com/user-attachments/assets/f7f50581-f343-42a1-b004-3f5e1ceab154)
 
-Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do framework React utilizando Next.js.
+Desenvolvimento de uma **POC** (Prova de Conceito) que demonstra o funcionamento do framework **React** utilizando **Next.js**.
+
+<h2 id="tecnologias">📚 O que foi solicitado?</h2>
+
+Na sua POC, você deve explicar o funcionamento dos seguintes conceitos de **React**, usando **Next.js**:
+
+- Estrutura de Projeto NextJS 14 ou superior
+- Criação de componentes simples (sem estado)
+- Estilo CSS (global e módulo)
 
 <h2 id="tecnologias">💻 Tecnologias</h2>
 
@@ -58,6 +66,10 @@ As convenções de arquivos a seguir são usadas para definir rotas e gerenciar 
 | `route`           | `.js` `.ts`                | Endpoint de API                |
 | `template`        | `.js` `.jsx` `.tsx`        | Layout re-renderizado          |
 | `default`         | `.js` `.jsx` `.tsx`        | Página de fallback para rota paralela |
+
+<h2 id="tecnologias">🚀 Funcionamento do projeto</h2>
+
+O desenvolvimento apresentado demonstra a criação de componentes simples (sem estado) e uso de CSS (global e módulo) para estilização. Na imagem acima, podemos ver duas fotos no estilo Polaroid, cada uma contendo uma imagem centralizada e uma legenda abaixo, indicando o tipo de código exibido (Java e Python). Ao lado das Polaroids, há duas colunas: uma contendo um botão de "like" (representado por um ícone de coração) e outra exibindo a quantidade de likes, que é atualizada a cada clique no botão de like.
 
 <h2 id="colabs">🤝 Colaboradores</h2>
 
