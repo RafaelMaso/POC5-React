@@ -1,5 +1,7 @@
 <h1 align="center" style="font-weight: bold;">POC 5 - React</h1>
 
+![image-poc5](https://github.com/user-attachments/assets/f7f50581-f343-42a1-b004-3f5e1ceab154)
+
 Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do framework React utilizando Next.js.
 
 <h2 id="tecnologias">💻 Tecnologias</h2>
