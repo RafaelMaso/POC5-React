@@ -6,7 +6,7 @@ Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do 
 
 <h2 id="tecnologias">💻 Tecnologias</h2>
 
-[![My Skills](https://skillicons.dev/icons?i=js,react,nextjs&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,typescript,css,react,nextjs&theme=light)](https://skillicons.dev)
 
 <h2 id="tecnologias">🚀 Estrutura de Projeto Next.js v15.0.1</h2>
 
