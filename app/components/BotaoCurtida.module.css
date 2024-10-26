@@ -1,0 +1,18 @@
+.BotaoCurtida {
+  background-color: #f0f0f0;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.BotaoCurtida img {
+  height: 20px;
+}
+
+.selected {
+  background-color: rgb(183, 31, 31);
+  color: #fff;
+}

@@ -1,69 +1,36 @@
-<h1 align="center" style="font-weight: bold;">POC 5 - React</h1>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Desenvolvimento de uma POC (Prova de Conceito) que demonstra o funcionamento do framework React utilizando Next.js.
+## Getting Started
 
-<h2 id="tecnologias">💻 Tecnologias</h2>
+First, run the development server:
 
-[![My Skills](https://skillicons.dev/icons?i=js,react,nextjs&theme=light)](https://skillicons.dev)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<h2 id="tecnologias">🚀 Estrutura de Projeto Next.js v15.0.1</h2>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<h3 id="tecnologias">Pastas de Nível Superior</h3>
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Pastas de nível superior são usadas para organizar o código da sua aplicação e seus recursos estáticos.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-| Pasta        | Finalidade                                     |
-|--------------|------------------------------------------------|
-| `app`        | Roteador de Aplicação                          |
-| `pages`      | Roteador de Páginas                            |
-| `public`     | Recursos estáticos a serem servidos            |
-| `src`        | Pasta opcional de código-fonte da aplicação    |
+## Learn More
 
-<h3 id="tecnologias">Arquivos de Nível Superior</h3>
+To learn more about Next.js, take a look at the following resources:
 
-Arquivos de nível superior são usados para configurar a aplicação, gerenciar dependências, rodar middlewares, integrar ferramentas de monitoramento e definir variáveis de ambiente.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-| Arquivo                | Finalidade                                                 |
-|------------------------|------------------------------------------------------------|
-| `next.config.js`       | Arquivo de configuração do Next.js                         |
-| `package.json`         | Dependências do projeto e scripts                          |
-| `instrumentation.ts`   | Arquivo de Instrumentação e OpenTelemetry                  |
-| `middleware.ts`        | Middleware de requisição do Next.js                        |
-| `.env`                 | Variáveis de ambiente                                      |
-| `.env.local`           | Variáveis de ambiente local                                |
-| `.env.production`      | Variáveis de ambiente de produção                          |
-| `.env.development`     | Variáveis de ambiente de desenvolvimento                   |
-| `.eslintrc.json`       | Arquivo de configuração do ESLint                          |
-| `.gitignore`           | Arquivos e pastas do Git a serem ignorados                 |
-| `next-env.d.ts`        | Arquivo de declaração TypeScript para o Next.js            |
-| `tsconfig.json`        | Arquivo de configuração do TypeScript                      |
-| `jsconfig.json`        | Arquivo de configuração do JavaScript                      |
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Essa estrutura proporciona uma organização clara tanto para desenvolvimento quanto para produção, ajudando a otimizar a gestão e implantação de aplicações Next.js.
+## Deploy on Vercel
 
-<h3 id="tecnologias">Convenções de Roteamento no app</h3>
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-As convenções de arquivos a seguir são usadas para definir rotas e gerenciar metadados no roteador de aplicativo.
-
-| Arquivo           | Extensões                  | Finalidade                    |
-|-------------------|----------------------------|--------------------------------|
-| `layout`          | `.js` `.jsx` `.tsx`        | Layout                         |
-| `page`            | `.js` `.jsx` `.tsx`        | Página                         |
-| `loading`         | `.js` `.jsx` `.tsx`        | Interface de Carregamento      |
-| `not-found`       | `.js` `.jsx` `.tsx`        | Interface de Página Não Encontrada |
-| `error`           | `.js` `.jsx` `.tsx`        | Interface de Erro              |
-| `global-error`    | `.js` `.jsx` `.tsx`        | Interface de Erro Global       |
-| `route`           | `.js` `.ts`                | Endpoint de API                |
-| `template`        | `.js` `.jsx` `.tsx`        | Layout re-renderizado          |
-| `default`         | `.js` `.jsx` `.tsx`        | Página de fallback para rota paralela |
-
-<h2 id="colabs">🤝 Colaboradores</h2>
-
-- Rafael Trindade Dal Maso
-- Fernando Lacava Olival Rodrigues
-- Henrique Totti Ulbricht Lapa
-
-<h2 id="contribue">📫 Contribue</h2>
-
-1. **Clone o projeto**: `git clone https://github.com/RafaelMaso/POC5-React.git`
-2. **Crie uma branch**: `git checkout -b feature/NAME`
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
